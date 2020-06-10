@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-all {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* Font Config */
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 1.15rem;
+}
+
+/* Header Styling */
+header {
+    /* background-color: salmon; */
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: linear-gradient(salmon 20%, coral 80%);
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logo  {
+    font-size: 1.25rem;
+    margin-left: 20px;
+    float: left;
+}
+
+nav {
+    float: right;;
+    margin-right: 5px;
+    margin-top: 14px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 7px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 3px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight:500;
+}
+
+nav ul li a:hover {
+    background-color: whitesmoke;
+    color: salmon;
+    border-radius: 15px;
+}
+
+/* Hero Image */
+.hero {
+    max-width: 1400px;
+    height: 500px;
+    background-image: url(./img/hero-img.JPG);
+    background-color: wheat;
+    background-size: cover;
+    background-position-y: -280px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Style */
+h1 {
+    margin-bottom: 40px;
+}
+
+ol {
+    text-align: center;
+    max-width: 300px;
+}
+
+.head-article {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+.content h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+/* Main Style About*/
+
+.card {
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 2rem 1rem 0rem 1rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-image: linear-gradient(salmon 20%, coral 80%);
+}
+
+.about {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-img img {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.about-text p{
+    text-indent: 20px;
+    text-align: center;
+    max-width: 800px;
+    padding: 0.2rem;
+}
+
+
+
+/* Main Style Our Secvices*/
+
+.slogan {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.card-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-service {
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-image: linear-gradient(whitesmoke 20%, wheat 80%);
+}
+
+.card-stack h3 {
+    font-size: 1.2rem;
+    color: salmon;
+}
+
+.card-text {
+    margin-top: 0.8em;
+    max-width: 250px;
+    text-align: center;
+}
+
+.card-stack-aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-aside {
+    margin: 1rem;
+}
+
+.info-aside {
+    margin: auto 0;
+    max-width: 300px;
+}
+
+.about-me h3{
+    text-align: center;
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+.me {
+    border-radius: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+table {
+    text-align: left;
+    margin: 0 auto;
+}
+
+tr, th, td {
+    margin: 0.5rem;
+    padding: 0.4rem;
+}
+
+footer {
+        overflow: hidden;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 1rem;
+        background-image: linear-gradient(salmon 20%, coral 80%);
+        box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.2);
+        text-align: center;
+}
+
+.copy {
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+.ext-link {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.ext-link:hover {
+    background-color: whitesmoke;
+    color: salmon;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .hero {
+        max-width: 99.5%;
+        margin: 0 auto;
+        height: 350px;
+        background-image: url(./img/hero-img.JPG);
+        background-size: cover;
+        background-position-y: -250px;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero {
+        max-width: 99.5%;
+        margin: 0 auto;
+        height: 250px;
+        background-image: url(./img/hero-img.JPG);
+        background-size: cover;
+        background-position-y: -250px;
+
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    nav ul li {
+        display: inline-block;
+        margin-top: -1.5rem;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        padding: 2px;
+        font-size: 16px;
+        color: whitesmoke;
+        font-weight:200;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+        .hero {
+        max-width: 99.5%;
+        margin: 0 auto;
+        height: 200px;
+        background-image: url(./img/hero-img.JPG);
+        background-size: cover;
+        background-position-y: -200px;
+
+  }
+
+  @media screen and (max-width: 740px) {
+    .hero {
+        max-width: 99.5%;
+        margin: 0 auto;
+        height: 200px;
+        background-image: url(./img/hero-img.JPG);
+        background-size: cover;
+        background-position-y: -50px;
+
+    }
+}
+
